@@ -10,7 +10,7 @@ nav{ color: rgb(78, 32, 17);
   width: 80%;
 }
 nav img{
-  width: 10%;
+  width: 10%; float: right;
 }
 .grid-class{
   display: grid; 
