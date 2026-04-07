@@ -15,6 +15,7 @@ nav img{
 .grid-class{
   display: grid; 
   grid-template-columns: 40% 40%;
+  justify-content: center;
 }
 /* li{display: inline-block; width: 30%; 
   text-align: center; 
