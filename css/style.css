@@ -12,7 +12,10 @@ nav{ color: rgb(78, 32, 17);
 nav img{
   width: 10%;
 }
-div{display: grid; grid-template-columns: 40%;}
+.grid-class{
+  display: grid; 
+  grid-template-columns: 40% 40%;
+}
 /* li{display: inline-block; width: 30%; 
   text-align: center; 
   height: 100px; 
