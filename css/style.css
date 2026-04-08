@@ -6,7 +6,7 @@ body{
 }
 nav{ color: rgb(78, 32, 17); 
   background-color: bisque; 
-  display: inline-block; 
+  display: inline-block; flex: ;
   width: 80%; height: 40%;
   list-style-type: none;
 }
