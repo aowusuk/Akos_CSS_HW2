@@ -13,7 +13,7 @@ nav{ color: rgb(78, 32, 17);
 ul{
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: space-evenly;
   
 }
 nav img{
@@ -28,7 +28,7 @@ div
     align-content: stretch;
     align-items: baseline;
     justify-items: center;
-    padding: 10px; justify-content: space-evenly;
+    padding: 10px; justify-content: space-between;
 }
 .grid{
   display:
