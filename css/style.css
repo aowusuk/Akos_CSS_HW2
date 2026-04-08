@@ -15,7 +15,8 @@ nav img{
 div
  {
     display: grid;
-    grid-template-columns: 40% 40% 40%;
+    list-style-type: none;
+    grid-template-columns: 40% 40%;
     justify-content: end;
     grid-auto-flow: column;
     align-content: stretch;
