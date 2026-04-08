@@ -11,12 +11,13 @@ nav{ color: rgb(78, 32, 17);
   list-style-type: none;
 }
 nav img{
-  width: 10%; float: right;
+  width: 10%; float: right; display: inline;
 }
 div
  {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
     grid-auto-flow: column;
     align-content: stretch;
     align-items: baseline;
