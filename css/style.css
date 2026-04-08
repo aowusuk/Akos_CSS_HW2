@@ -7,15 +7,20 @@ body{
 nav{ color: rgb(78, 32, 17); 
   background-color: bisque; 
   display: inline-block; 
-  width: 80%;
+  width: 80%; height: 40%;
 }
 nav img{
   width: 10%; float: right;
 }
-div{
-  display: grid; 
-  grid-template-columns: 40% 40%;
-  justify-content: center;
+div
+ {
+    display: grid;
+    grid-template-columns: 40% 40% 40%;
+    justify-content: end;
+    grid-auto-flow: column;
+    align-content: stretch;
+    align-items: baseline;
+    justify-items: center;
 }
 /* li{display: inline-block; width: 30%; 
   text-align: center; 
