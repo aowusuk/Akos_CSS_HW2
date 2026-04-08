@@ -10,6 +10,9 @@ nav{ color: rgb(78, 32, 17);
   width: 80%; height: 40%;
   list-style-type: none;
 }
+nav a{
+  list-style-type: none;
+}
 ul{
   display: flex;
   flex-direction: row-reverse;
