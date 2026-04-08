@@ -16,8 +16,8 @@ nav img{
 div
  {
     display: inline-grid;
-    grid-template-columns: 200px 200px 200px 200px 200px;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: 110px 110px 110px 110px 110px;
+    grid-template-rows: 150px 150px;
     grid-auto-flow: column;
     align-content: stretch;
     align-items: baseline;
