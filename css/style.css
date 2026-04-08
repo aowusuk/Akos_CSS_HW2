@@ -16,7 +16,7 @@ nav img{
 div
  {
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 200px 200px 200px;
     grid-template-rows: max-content;
     justify-content: end;
     grid-auto-flow: column;
