@@ -8,6 +8,7 @@ nav{ color: rgb(78, 32, 17);
   background-color: bisque; 
   display: inline-block; 
   width: 80%; height: 40%;
+  list-style-type: none;
 }
 nav img{
   width: 10%; float: right;
@@ -15,8 +16,8 @@ nav img{
 div
  {
     display: grid;
-    list-style-type: none;
     grid-template-columns: 40% 40%;
+    grid-template-rows: max-content;
     justify-content: end;
     grid-auto-flow: column;
     align-content: stretch;
