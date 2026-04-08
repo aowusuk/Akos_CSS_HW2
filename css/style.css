@@ -17,8 +17,6 @@ div
  {
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    grid-template-rows: max-content;
-    justify-content: end;
     grid-auto-flow: column;
     align-content: stretch;
     align-items: baseline;
