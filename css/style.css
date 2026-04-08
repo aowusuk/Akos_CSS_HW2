@@ -18,14 +18,17 @@ nav img{
 }
 div
  {
-    display: inline-grid;
-    grid-template-columns: 110px 110px 110px 110px 110px;
-    grid-template-rows: 150px 150px;
+    
     grid-auto-flow: column;
     align-content: stretch;
     align-items: baseline;
     justify-items: center;
     padding: 10px; justify-content: space-between;
+}
+.grid{
+  display: inline-grid;
+    grid-template-columns: 110px 110px 110px 110px 110px;
+    grid-template-rows: 150px 150px;
 }
 /* li{display: inline-block; width: 30%; 
   text-align: center; 
