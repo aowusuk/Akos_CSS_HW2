@@ -11,7 +11,7 @@ nav{ color: rgb(78, 32, 17);
   list-style-type: none;
 }
 nav img{
-  width: 10%; float: right; display: inline;
+  width: 10%; float: right; display: inline-block;
 }
 div
  {
